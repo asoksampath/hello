@@ -1,0 +1,14 @@
+<template>
+    <div class="slds-m-around_medium">
+        Example with HTML Component <br/>
+        My Input <input type="text" name="fname" value={helloWorld} onkeypress={handleChange}>
+        Hello, {helloWorld}
+    </div>
+    <br/>
+    <lightning-card title="Example with lightning tags" icon-name="custom:custom14">
+        <div class="slds-m-around_medium">
+            <lightning-input label="Name" value={helloWorldLWC} onchange={handleChangeLWC}></lightning-input>
+            <p>Hello, {helloWorldLWC}!</p>
+        </div>
+    </lightning-card>
+</template>
